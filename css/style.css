@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+body{
+    background: blue url("../img/fundo.jpg") no-repeat;
+    background-size: cover;
+
+}
+#container{
+   width: 350px;
+   height: 350px;
+   position:relative;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 10px;
+   background-color: rgba(38, 38, 221, 0.788);  
+   opacity: 0.5;
+}
+#container>h1{
+    text-align: center;
+    padding: 5px;
+}
+#logo{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0 10px 0;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+}
+#logo img {
+    margin: 20px 0 5px 0;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form .text{
+    font-size: 1em;
+    text-transform: capitalize;
+    border: none;
+    width: 280px;
+    height: 25px;
+    margin: 20px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(39, 38, 38, 0.945);
+}
+#form .entrar{
+    border: none;
+    width: 280px;
+    height: 25px;
+    text-transform: capitalize;
+    margin: 5px;
+    background: orangered;
+}
+#form .entrar:hover{
+   border-color: orangered;
+   border-radius: 0;
+}
+#form .entrar:hover{
+    transition: linear .3s;
+    border-radius: 5px;
+    background: rgba(160, 59, 23, 0.973);
+}
